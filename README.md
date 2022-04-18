@@ -18,7 +18,7 @@ $ ./2.sh
 ```
 * INPUT:  From `quotes.txt`
 * OUTPUT: To `speech.txt`
-* Other assumptions: assuming that the `~` is the seperator between the Quote and the name 
+* Other assumptions: assuming that the `~` is the seperator between the Quote and the name no precautions made for extra `space` between `~` and the author name
 
 # Q3
 * run as:
@@ -54,6 +54,7 @@ $ ./5A.sh
 ```
 * INPUT: a string through terminal
 * OUTPUT: to terminal
+* only alphabets in input
 
 ## Q5B
 * run as:
@@ -62,6 +63,7 @@ $ ./5B.sh
 ```
 * INPUT: a string through terminal
 * OUTPUT: to terminal
+* only alphabets in input
 
 ## Q5C
 * run as:
@@ -70,6 +72,7 @@ $ ./5C.sh
 ```
 * INPUT: a string _****without space****_
 * OUTPUT: To terminal
+* only alphabets in input
 
 # Link to the Git Repo:
 * [https://github.com/Abhinavreddy-B/ISSAssn_1](https://github.com/Abhinavreddy-B/ISSAssn_1)
