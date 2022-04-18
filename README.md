@@ -35,6 +35,7 @@ $ ./3.sh <input_file>
 Line No: <> - Count of Words: []
 Word: <> - Count of repetition: []
 ```
+* Words are printed in the order in which they were seen first in file ( not in alphabetical order )
 * Assumption: `\n` , `\t` and `<space>` are the only seperators in the file
 
 # Q4
