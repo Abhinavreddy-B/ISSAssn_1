@@ -1,4 +1,17 @@
 
+# ISS Assignment 1
+# Name: Abhinav Reddy Boddu
+# Roll Number: 202110134
+# File structure:
+```
+.
+├── 1.sh
+├── 2.sh
+├── 3.sh
+├── 4.sh
+├── 5.sh
+└── README.md
+```
 # Link to the Git Repo:
 * [https://github.com/Abhinavreddy-B/ISSAssn_1](https://github.com/Abhinavreddy-B/ISSAssn_1)
 

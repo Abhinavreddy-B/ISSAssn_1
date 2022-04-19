@@ -25,7 +25,6 @@ while read inp
                 ((freq['$i']++))
             done
     done < $1
-echo ${freq["win"]}
 for i in ${all[@]}
 do
     echo "Word: $i - Count of repetition: ${freq[$i]}"
