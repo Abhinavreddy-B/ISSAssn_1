@@ -13,16 +13,20 @@ while read line
         echo -n "Line No: $count - Count of Words: " &&  (echo $line | wc -w)
         ((count++))
     done < $1
+declare -a all
 declare -A freq
 while read inp
     do
         for i in ${inp[@]}
             do
+                if [[ ! " ${all[*]} " =~ " $i " ]]; then
+                    all+=("$i")
+                fi
                 ((freq['$i']++))
             done
     done < $1
-
-for i in ${!freq[@]}
+echo ${freq["win"]}
+for i in ${all[@]}
 do
     echo "Word: $i - Count of repetition: ${freq[$i]}"
 done

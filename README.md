@@ -47,23 +47,15 @@ $ ./4.sh
 * OUTPUT: space seperated numbers in increasing order
 
 # Q5
-## Q5A
+## Q5A,B
 * run as:
 ```
-$ ./5A.sh
+$ ./5AB.sh
 ```
 * INPUT: a string through terminal
 * OUTPUT: to terminal
 * only alphabets in input
-
-## Q5B
-* run as:
-```
-$ ./5B.sh
-```
-* INPUT: a string through terminal
-* OUTPUT: to terminal
-* only alphabets in input
+* assumption: doing both 5A and 5B in same script since 5B is expected to use the output of 5A. Prints 2 strings ,the answer for 5A , and answer for 5B
 
 ## Q5C
 * run as:
